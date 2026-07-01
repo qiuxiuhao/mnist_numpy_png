@@ -1,0 +1,16 @@
+# 数据和训练产物
+data/*
+!data/.gitkeep
+
+logs/*
+!logs/.gitkeep
+
+models/*
+!models/.gitkeep
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 系统文件
+.DS_Store
