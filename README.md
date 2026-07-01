@@ -104,37 +104,10 @@ OpenCV
 
 
 ### 3.1 克隆项目
-
-把下面的地址替换成你自己的 GitHub 仓库地址：
-
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/qiuxiuhao/mnist_numpy_png.git
+cd mnist_numpy_png
 ```
-
-如果你还没有上传到 GitHub，本地项目结构可以先保持如下：
-
-```text
-<your-repo>/
-├── mnist_numpy_png.py
-├── README.md
-├── data/
-│   └── mnist_png/
-│       ├── training/
-│       │   ├── 0/
-│       │   ├── 1/
-│       │   ├── ...
-│       │   └── 9/
-│       └── testing/
-│           ├── 0/
-│           ├── 1/
-│           ├── ...
-│           └── 9/
-├── models/
-└── logs/
-```
-
-`models/` 和 `logs/` 可以不手动创建，代码运行时会自动创建。
 
 ---
 
